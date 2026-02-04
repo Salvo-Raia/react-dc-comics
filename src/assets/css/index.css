@@ -1,5 +1,24 @@
 /* Header */ 
+header img {
+    height: 80px;
+}
+
 ul {
     list-style-type: none;
 }
 
+/* Main */ 
+
+/* Footer */ 
+footer {
+    background-color: rgb(51, 122, 230);
+}
+
+footer img {
+    height: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
