@@ -1,6 +1,7 @@
 /* Header */ 
 header img {
     height: 80px;
+    display: block;
 }
 
 ul {
@@ -9,8 +10,8 @@ ul {
 
 /* Main */ 
 
-/* Footer */ 
-footer {
+/* Footer CTA */ 
+.call-to-action  {
     background-color: rgb(51, 122, 230);
 }
 
@@ -21,4 +22,41 @@ footer img {
 a {
     color: white;
     text-decoration: none;
+}
+
+/* Footer navbar */
+.footer-navbar {
+    background-image: url("src/assets/img/footer-bg.jpg");
+    background-size: cover;
+}
+
+.footer-navbar li {
+    color: grey;
+    font-size: 0.8rem;
+}
+
+.big-footer-logo {
+    /* TODO: overflow hidden */ 
+}
+
+.big-footer-logo img {
+    height: 250px; /* TODO: altezza temporanea */ 
+}
+
+.footer-social {
+    background-color: rgb(56, 56, 56);
+}
+
+.footer-social a {
+    border: 2px solid rgb(44, 125, 247);
+}
+
+.footer-social h3 {
+    color: rgb(44, 125, 247);
+    font-size: 1.2rem;
+}
+
+.footer-social img {
+    display: block;
+    height: 35px;
 }

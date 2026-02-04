@@ -1,6 +1,6 @@
 export default function Header () {
-    return <header className="container text-center py-3">    
-             <div className="header-wrapper d-flex justify-content-between align-items-center">
+    return <header className="text-center py-3">    
+             <div className="header-wrapper container d-flex justify-content-between align-items-center">
                 <div className="logo">
                     <img src="/dc-logo.png" title="DC Comics logo" alt="DC Logo" />
                 </div>
