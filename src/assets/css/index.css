@@ -1,18 +1,49 @@
-/* Header */ 
-header img {
-    height: 80px;
-    display: block;
+/* Custom Properties */ 
+:root {
+    --standard-azure: rgb(2 130 249);
+}
+
+/* Generics */ 
+body {
+    font-family: "Open Sans", sans-serif;
 }
 
 ul {
     list-style-type: none;
 }
 
+/* Header */ 
+header img {
+    height: 80px;
+    display: block;
+}
+
+header ul {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+header li {
+    height: 120px;
+    line-height: 120px;
+}
+
+header li.active {
+    color: var(--standard-azure);
+    border-bottom: 4px solid var(--standard-azure);
+}
+
+header li:hover {
+    cursor: pointer;
+    color: var(--standard-azure);
+}
+
+
 /* Main */ 
 
 /* Footer CTA */ 
 .call-to-action  {
-    background-color: rgb(51, 122, 230);
+    background-color: var(--standard-azure)
 }
 
 footer img {
@@ -24,6 +55,11 @@ a {
     text-decoration: none;
 }
 
+a span {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
 /* Footer navbar */
 .footer-navbar {
     position: relative;
@@ -32,9 +68,16 @@ a {
     background-size: cover;
 }
 
+.footer-navbar h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
 .footer-navbar li {
-    color: grey;
     font-size: 0.8rem;
+    font-weight: 500;
+    color: grey;
+
 }
 
 .big-footer-logo {
@@ -49,17 +92,19 @@ top: 50%;
 translate: 20% -50%; /* TODO: Non sono convinto */
 }
 
+/* Foote rsocial */ 
 .footer-social {
     background-color: rgb(56, 56, 56);
 }
 
 .footer-social a {
-    border: 2px solid rgb(44, 125, 247);
+    border: 2px solid var(--standard-azure);
 }
 
 .footer-social h3 {
     color: rgb(44, 125, 247);
     font-size: 1.2rem;
+    font-weight: 700;
 }
 
 .footer-social img {
