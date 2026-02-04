@@ -26,6 +26,8 @@ a {
 
 /* Footer navbar */
 .footer-navbar {
+    position: relative;
+    overflow: hidden;
     background-image: url("src/assets/img/footer-bg.jpg");
     background-size: cover;
 }
@@ -36,11 +38,15 @@ a {
 }
 
 .big-footer-logo {
-    /* TODO: overflow hidden */ 
+
 }
 
 .big-footer-logo img {
-    height: 250px; /* TODO: altezza temporanea */ 
+height: 620px;
+position: absolute;
+right: 20%;
+top: 50%;
+translate: 20% -50%; /* TODO: Non sono convinto */
 }
 
 .footer-social {
