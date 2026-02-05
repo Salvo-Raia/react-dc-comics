@@ -46,11 +46,9 @@ header li:hover {
 }
 
 .comic-card img{
-    height: 100%;
-    aspect-ratio: 1/1;
+    width:100%;
+    aspect-ratio: 10/16;
     object-fit: cover;
-    object-position: top;
-    display: block;
 }
 
 .comic-card h3 {
