@@ -40,6 +40,21 @@ header li:hover {
 
 
 /* Main */ 
+.comic-card img{
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
+.comic-card h3 {
+    text-transform:uppercase;
+}
+
+.loadmorebtn  {
+    background-color: var(--standard-azure);
+}
 
 /* Footer CTA */ 
 .call-to-action  {
