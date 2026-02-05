@@ -10,25 +10,25 @@ const ctaLinks = [
     {
     url: "#",
     link: "DIGITAL COMICS",
-    img: "./src/assets/img/buy-comics-digital-comics.png",
+    img: "./src/assets/img/buy-comics-merchandise.png",
     imgDescription: "Buy Digital Comics icon"
   },
     {
     url: "#",
     link: "DIGITAL COMICS",
-    img: "./src/assets/img/buy-comics-digital-comics.png",
+    img: "./src/assets/img/buy-comics-subscriptions.png",
     imgDescription: "Buy Digital Comics icon"
   },
     {
     url: "#",
     link: "DIGITAL COMICS",
-    img: "./src/assets/img/buy-comics-digital-comics.png",
+    img: "./src/assets/img/buy-comics-shop-locator.png",
     imgDescription: "Buy Digital Comics icon"
   },
     {
     url: "#",
     link: "DIGITAL COMICS",
-    img: "./src/assets/img/buy-comics-digital-comics.png",
+    img: "./src/assets/img/buy-dc-power-visa.svg",
     imgDescription: "Buy Digital Comics icon"
   }
 ]; 
