@@ -40,6 +40,10 @@ header li:hover {
 
 
 /* Main */ 
+.comic-card {
+    overflow: hidden;
+}
+
 .comic-card img{
     height: 100%;
     aspect-ratio: 1/1;
@@ -91,8 +95,10 @@ a span {
 .footer-navbar li {
     font-size: 0.8rem;
     font-weight: 500;
-    color: grey;
+}
 
+.footer-navbar li a {
+    color: grey;
 }
 
 .big-footer-logo img {
