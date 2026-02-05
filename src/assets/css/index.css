@@ -57,6 +57,8 @@ header li:hover {
 }
 
 .loadmorebtn  {
+    font-size: 12px;
+    font-weight: 600;
     background-color: var(--standard-azure);
 }
 
