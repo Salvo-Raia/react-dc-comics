@@ -118,6 +118,10 @@ translate: 20% -50%; /* TODO: Non sono convinto */
     border: 2px solid var(--standard-azure);
 }
 
+.footer-navbar-menù ul {
+    max-height: 130px;
+}
+
 .footer-social h3 {
     color: rgb(44, 125, 247);
     font-size: 1.2rem;
