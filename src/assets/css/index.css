@@ -40,8 +40,9 @@ header li:hover {
 
 
 /* Main */ 
-.comic-card {
-    overflow: hidden;
+
+.comic-card:hover {
+    cursor: pointer;
 }
 
 .comic-card img{
