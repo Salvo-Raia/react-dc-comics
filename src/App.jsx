@@ -1,7 +1,7 @@
-import Header from "./components/header";
-import Main from "./components/main";
-import Footer from "./components/footer";
-import comics from "./components/comics";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+import comics from "./components/Comics";
 
 export default function App() {
 
