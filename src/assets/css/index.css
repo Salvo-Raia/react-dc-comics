@@ -103,11 +103,8 @@ a span {
 }
 
 .big-footer-logo img {
-height: 620px;
-position: absolute;
-right: 20%;
-top: 50%;
-translate: 20% -50%; /* TODO: Non sono convinto */
+height: 400px;
+transform: scale(2);
 }
 
 /* Foote rsocial */ 
@@ -120,7 +117,7 @@ translate: 20% -50%; /* TODO: Non sono convinto */
 }
 
 .footer-navbar-menù ul {
-    max-height: 130px;
+    max-height: 10px; /*TODO: Non mi convince */
 }
 
 .footer-social h3 {

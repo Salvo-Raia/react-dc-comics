@@ -1,7 +1,6 @@
 import Card from "./Card";
-import comics from "./comics";
 
-export default function Main () {
+export default function Main ({comics}) {
 
     return <main className=" bg-dark text-white">
         <div className="container text-center py-5">
