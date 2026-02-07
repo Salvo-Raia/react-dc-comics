@@ -28,6 +28,16 @@ Una volta inseriti tutti i contenuti dinamicamente, completate il vostro layout 
 
 Immaginare e creare la struttura dati per i link nel footer e realizzarli tramite l’iterazione! 
 
+## Consegna giorno 3
+
+Continuate a lavorare nella stessa repo di ieri e create un nuovo componente riutilizzabile per visualizzare le card dei fumetti, sfruttando l’array di oggetti in allegato. Fate in modo che il componente riceva i dati del singolo fumetto come props.
+
+**Nota:** Le immagini potrebbero variare leggermente rispetto a quelle nello screenshot.
+
+**Bonus** 
+
+Provare a centralizzare i dati facendoli partire tutti da App.jsx e passandoli via prop ai vari componenti che li necessitano
+
 
 # React + Vite Readme
 

@@ -1,3 +1,4 @@
+import Card from "./Card";
 import comics from "./comics";
 
 export default function Main () {
@@ -5,13 +6,8 @@ export default function Main () {
     return <main className=" bg-dark text-white">
         <div className="container text-center py-5">
             <div className="row row-cols-6 gy-4">
-                {comics.map((comicIssue) => 
-                    <div key={comicIssue.id} className="col">
-                        <div className="comic-card">
-                            <img className="img-fluid" src={comicIssue.thumb} title={comicIssue.series} alt={comicIssue.series} />
-                            <h3 className="text-start h6 my-3">{comicIssue.series}</h3>
-                        </div>
-                    </div>
+                {comics.map((comicIssue, index) =>
+                <Card key={index} thumb={comicIssue.thumb} series={comicIssue.series} />
                 )}
             </div>
             <button className="btn btn-primary loadmorebtn rounded-0 px-5">LOAD MORE</button>
