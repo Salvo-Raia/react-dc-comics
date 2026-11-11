@@ -1,58 +1,76 @@
-# Esercizio: DC Comics (React Components)
+![Boolean Tech Academy](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
 
-Nome repo: `react-dc-comics`
+# 🎓 Exercise 33/50 - DC Comics (React Components)
 
-## Consegna giorno 1
+## 📌 Project Overview
 
-Create un nuovo progetto React e definite i componenti necessari per strutturare il layout come da screenshot allegato.
-Per oggi diamo priorità alla struttura: quando è tutto bello solido, passiamo al CSS!
+| Property | Details |
+|:--|:--|
+| Repository | `react-dc-comics` |
+| Category | Boolean Tech Academy |
+| Type | Exercise |
+| Exercise | 33/50 |
 
-**Note**
+## 🎯 Assignment
 
-Il font utilizzato è Open Sans
+Build a **DC Comics website** using React, progressively developing its structure, components and dynamic content.
 
-**Bonus**
+### 🧱 Part 1 - React Components
 
-Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
+Create a new React project and define the components needed to reproduce the layout shown in the provided screenshot.
 
-## Consegna giorno 2
+For this first step, prioritize the **component structure and layout organization**. Focus on making the structure solid before moving on to CSS styling.
 
-Lavoriamo sul nostro sito dei fumetti per dinamicizzare sia la navbar che i fumetti, sfruttando l’iterazione con JSX. 
+#### 🎨 Design
 
-* Per i fumetti, potrete utilizzare i dati in allegato
-* Per la navbar, vi invitiamo  a ragionare su quale possa essere la struttura dati corretta
+- Use **Open Sans** as the main font.
+- Reproduce the layout shown in the supplied reference screenshot.
 
-Una volta inseriti tutti i contenuti dinamicamente, completate il vostro layout e rifinite i dettagli col CSS.
+#### ⭐ Bonus - Additional Component
 
-**Bonus**
+Create an additional React component to manage the **blue icon banner**.
 
-Immaginare e creare la struttura dati per i link nel footer e realizzarli tramite l’iterazione! 
+---
 
-## Consegna giorno 3
+### ⚡ Part 2 - Dynamic Content with JSX
 
-Continuate a lavorare nella stessa repo di ieri e create un nuovo componente riutilizzabile per visualizzare le card dei fumetti, sfruttando l’array di oggetti in allegato. Fate in modo che il componente riceva i dati del singolo fumetto come props.
+Continue working on the DC Comics website by making both the navigation bar and comic book collection dynamic.
 
-**Nota:** Le immagini potrebbero variare leggermente rispetto a quelle nello screenshot.
+Use **JSX iteration** to generate the content from JavaScript data structures.
 
-**Bonus** 
+#### 1. Dynamic Comic Books
 
-Provare a centralizzare i dati facendoli partire tutti da App.jsx e passandoli via prop ai vari componenti che li necessitano
+Use the comic book data provided in the supplied exercise folder.
 
+Render the comic book collection dynamically by iterating over the provided data.
 
-# React + Vite Readme
+#### 2. Dynamic Navigation Bar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Think about the most appropriate data structure for the navigation links and use it to generate the navbar dynamically.
 
-Currently, two official plugins are available:
+#### 3. Complete the Layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Once all content has been rendered dynamically, complete the website layout and refine its appearance using CSS.
 
-## React Compiler
+#### ⭐ Bonus - Dynamic Footer Links
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Design a suitable data structure for the footer navigation links and use JSX iteration to generate them dynamically.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) 
 
+## 💡 What I Learned
+
+- Structuring a React application into reusable components.
+- Organizing a page layout through component composition.
+- Rendering collections dynamically with JSX.
+- Working with arrays of objects as data sources.
+- Using JavaScript iteration to generate React elements.
+- Separating content from presentation.
+- Building dynamic navigation menus and content sections.
+- Styling and refining a React layout with CSS.
+
+## ©️ Credits
+
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
