@@ -8,13 +8,13 @@ Building a DC Comics website with React by creating reusable components and dyna
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| react-dc-comics | DC Comics | Exercise | React components, JSX & Dynamic rendering | 33/50 |
+| react-dc-comics | DC Comics | Exercise | React, components, JSX & Dynamic rendering | 33/50 |
 
 ## Assignment
 
 Build a **DC Comics website** using React, progressively developing its structure, components and dynamic content.
 
-### Part 1 - React Components
+### Part 1 - React components
 
 Create a new React project and define the components needed to reproduce the layout shown in the provided screenshot.
 
@@ -29,23 +29,23 @@ Create an additional React component to manage the **blue icon banner**.
 - Use **Open Sans** as the main font.
 - Reproduce the layout shown in the supplied reference screenshot.
 
-### Part 2 - Dynamic Content with JSX
+### Part 2 - Dynamic content with JSX
 
 Continue working on the DC Comics website by making both the navigation bar and comic book collection dynamic.
 
 Use **JSX iteration** to generate the content from JavaScript data structures.
 
-#### 1. Dynamic Comic Books
+#### 1. Dynamic comic books
 
 Use the comic book data provided in the supplied exercise folder.
 
 Render the comic book collection dynamically by iterating over the provided data.
 
-#### 2. Dynamic Navigation Bar
+#### 2. Dynamic navigation bar
 
 Think about the most appropriate data structure for the navigation links and use it to generate the navbar dynamically.
 
-#### 3. Complete the Layout
+#### 3. Complete the layout
 
 Once all content has been rendered dynamically, complete the website layout and refine its appearance using CSS.
 
