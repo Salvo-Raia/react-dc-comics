@@ -16,6 +16,8 @@ Build a **DC Comics website** using React, progressively developing its structur
 
 ### Part 1 - React components
 
+Build the initial website structure by creating reusable React components and organizing the page layout.
+
 #### Component structure and layout
 
 Create a new React project and define the components needed to reproduce the layout shown in the provided screenshot.
