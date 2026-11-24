@@ -35,17 +35,17 @@ Continue working on the DC Comics website by making both the navigation bar and 
 
 Use **JSX iteration** to generate the content from JavaScript data structures.
 
-#### 1. Dynamic comic books
+#### Dynamic comic books
 
 Use the comic book data provided in the supplied exercise folder.
 
 Render the comic book collection dynamically by iterating over the provided data.
 
-#### 2. Dynamic navigation bar
+#### Dynamic navigation bar
 
 Think about the most appropriate data structure for the navigation links and use it to generate the navbar dynamically.
 
-#### 3. Complete the layout
+#### Complete the layout
 
 Once all content has been rendered dynamically, complete the website layout and refine its appearance using CSS.
 
